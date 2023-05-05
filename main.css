@@ -1,0 +1,113 @@
+.header_main{
+    background-color: black;
+}
+
+.header_main_top {
+    border-bottom: grey solid 2px;
+}
+
+#header_main_top_start,  #header_main_top_end{
+    display: flex;
+    align-items: center;
+}
+
+#header_main_top_start {
+    justify-content: start;
+}
+
+#header_main_top_end {
+    justify-content: end;
+}
+
+#menu_search {
+    font-size: 1.4em;
+    color: #fff;
+    margin-right: 16px;
+}
+
+#header_main_top_end button {
+    color: #fff;
+    background-color: #4c00d8;
+    font-weight: bolder;
+    border: none;
+}
+
+
+
+.nav .nav-link,
+.nav-cardapio .nav-link.active:hover,
+#header_main_top_center  {
+    color: #fff;
+}
+
+#cabecalho .nav .nav-link.active , #header_main_top_end button:hover{
+    background-color: #fff;
+    color: #4c00d8;
+}
+
+#carousel .carousel-item img,
+#playlists img{
+    object-fit: cover;
+    object-position: top;
+    width: 100%;
+    overflow: hidden;
+}
+
+#carousel .carousel-item img{
+    height: 50vh;
+}
+
+#playlists img {
+    height: 30vh;
+}
+
+.carousel-caption {
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
+.text-colored {
+    color: #4c00d8;
+}
+
+#playlists, #fale-conosco {
+    background-color: #cfd5e6;
+}
+
+.nav-estilos .nav-link {
+    color: black;
+}
+
+.nav-estilos .nav-link.active,
+#fale-conosco button {
+    background-color: #4c00d8;
+    color: #fff;
+}
+
+.nav-estilos .nav-link:hover {
+    background-color: #cfd5e6;
+    color: #fff;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+.social-links a {
+    text-decoration: none;
+}
+
+#menu {
+    visibility: hidden;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+
+    #menu {
+        visibility: visible;
+    }
+}
